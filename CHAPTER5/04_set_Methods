@@ -1,0 +1,33 @@
+# Creating an empty set
+
+b = set()
+print(type(b))
+
+# Adding Values to an empty set
+b.add(4)
+b.add(4)
+b.add(5)
+b.add(5)
+b.add(5) # Adding a value repeatedly does not changes a set
+
+#b.add([4,5,6]) # we can't merge the list and set toghether as it's unhashable (list)
+#b.add({4:5}) # cannot add list or dictionary to the sets
+b.add((4,5,6))
+
+print(b)
+
+#1.
+print(len(b)) #prints the length of this set
+
+#2.
+b.remove(5) #Removes 5 ftom set b
+print(b)
+
+#3.
+print(b.pop())
+print(b)
+
+#4. 
+
+
+
